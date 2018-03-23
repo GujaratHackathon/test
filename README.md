@@ -1,7 +1,1 @@
-#include<stdio.h>
-void main()
-{
-printf("hello");
-printf("saini ");
-}
-
+Just a file
