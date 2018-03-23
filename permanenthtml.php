@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	hreklml
 	<!-- Meta tags -->
 	<title><General Application Form</title>
 	<meta name="keywords" content="General Application Form Responsive widget, Flat Web Templates, Android Compatible web template, 
@@ -19,46 +17,49 @@
 	<link href="//fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 
 	<script type="text/javascript">
- 		var counter = 1;
+ 		var counter1= 1;
+		var limit = 3;
 		function addInput(divName){
-     		if (counter >= 3)  {
+     		if (counter1 == limit)  {
           		alert("You have reached the limit of adding " + counter + " inputs");
           	}
      		else {
           		var newdiv = document.createElement('div');
-          		newdiv.innerHTML = " <br><select class='form-dropdown' name='city1'><option>Valsad</option><option>Vadodara</option></select>";
+          		newdiv.innerHTML = " <br><select class='form-dropdown' name='city1'><option> Ahmedabad</option><option> Amreli</option><option> Anand</option><option>Aravali </option> <option> Banaskantha</option><option> Bharuch</option> <option> Bhavnagar</option> <option> Botad</option> <option> Chhota Udaipur</option><option> Devbhoomi Dwarka</option><option> Dohad</option><option> Gandhinagar</option><option> Gir Somnath</option><option> Jamnagar</option><option> Junagadh</option><option> Kachchh</option><option>Kheda</option><option> Mahisagar</option><option> Mehsana </option> <option> Morbi </option><option> Narmada </option><option> Navsari </option><option> PanchMahal </option><option> Patan </option><option> Porbandar</option><option > Rajkot </option><option> Sabarkantha </option><option> Surat </option> <option> Surendranagar</option><option> Tapi </option><option> The Dangs</option><option > Vadodara</option><option> Valsad</option></select>";
           		document.getElementById(divName).appendChild(newdiv);
-          		counter++;
+          		counter1++;
      }
 		
 }
 	</script>
 
 	<script type="text/javascript">
- 		var counter1 = 1;
+ 		var counter2= 1;
+		var limit = 3;
 		function addInput1(divName){
-     		if (counter1 >= 3)  {
+     		if (counter2== limit)  {
           		alert("You have reached the limit of adding " + counter + " inputs");
           	}
      		else {
           		var newdiv = document.createElement('div');
-          		newdiv.innerHTML = " <br><select class='form-dropdown' name='city1'><option>Valsad</option><option>Vadodara</option></select>";
+          		newdiv.innerHTML = " <br><select class='form-dropdown' name='Sector'><option>Agriculture<option><option>Apparels</option><option>Automotive</option><option>Arms & Ammunitions</option><option>Aviation & Aerospace</option><option>Beauty & Wellness</option><option>Banking, Financial, Services & Insurances</option><option>Capital Goods</option> <option>Construction</option><option>Chemicals & Petrochemicals</option> <option>Dance</option><option>Defence</option><option>Entertainment</option><option>Hardware</option><option>Event Management</option><option>Food & Processing</option> <option>Food and Beverages</option> <option>Gems & Jwellery</option><option>Handicraft</option><option>Healthcare</option><option>Infrastructure Equipment</option><option>Iron & Steel</option><option>It-ITeS</option><option>Leather</option><option>Life Sciences</option><option>Law Firm</option><option>Logistics</option><option>Media</option><option>Mining</option><option>Oil & Gas</option><option>Office</option><option>Power</option><option>Retail</option> <option>Security</option><option>Sports</option><option>Singing</option><option>Shipping</option><option>School</option><option>Telecom</option> <option>Textiles & Handlooms</option> <option>Tourism & Hospitality</option><option>Transport</option><option>University</option><option>Valsad</option><option>Vadodara</option></select>";
           		document.getElementById(divName).appendChild(newdiv);
-          		counter1++;
+          		counter2++;
      }
 		
 }
 	</script><script type="text/javascript">
- 		var counter2 = 1;
+ 		var counter3= 1;
+		var limit = 3;
 		function addInput2(divName){
-     		if (counter2 >= 3)  {
+     		if (counter3 == limit)  {
           		alert("You have reached the limit of adding " + counter + " inputs");
           	}
      		else {
           		var newdiv = document.createElement('div');
-          		newdiv.innerHTML = " <br><select class='form-dropdown' name='city1'><option>Valsad</option><option>Vadodara</option></select>";
+          		newdiv.innerHTML = " <br><select class='form-dropdown' name='city1'><option>Accounts</option><option>Clerk</option><option>CEO</option><option>Cheif</option><option>Chef</option><option>Financer</option><option>Law</option><option>Manager</option><option>Professor</option><option>Teacher</option></select>";
           		document.getElementById(divName).appendChild(newdiv);
-          		counter2++;
+          		counter3++;
      }
 		
 }
@@ -435,8 +436,8 @@
                             </select>
                             <input type="button" name="add" value="add"  onclick="addInput1('sector1')">
                             </div>
-                            </label>
-                        </li><br>
+        </lable>
+    </li><br>
                         <li class="name">
                             <label class="form-label"> Skills <span class="form-required"> * </span></label>
                             <div class="form-input add" id="skill1">
@@ -452,19 +453,19 @@
                                  <option value="Professor">Professor</option>
                                <option value="Teacher">Teacher</option>                       
                             </select>
-                            <input type="button" name="add" value="add"  onclick="addInput2('skill1')">
                             </div><br>
+                            <input type="button" name="add" value="add"  onclick="addInput2('skill1')">
                             </label>
-                        </li><br>
+                        </li>
                         <li class="name">
                             <label class="form-label">Certificates <span class="form-required">*</span></label>
                             <div class="form-input">
 									<input type="file" id="myFile" name="Certificate" required>
 							</div>
                         </li>
-                    </ul><br>
+                    </ul>
 					<div>
-						<button type="submit" name="submit" class="subbut"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSubmit&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></button><br>
+						<button type="submit" name="submit" class="subbut"><span>Submit</span></button><br>
 					</div>
 				</form>	
 			</div>
