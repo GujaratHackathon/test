@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>hello11</title>
+	hiii
 	<!-- Meta tags -->
 	<title><General Application Form</title>
 	<meta name="keywords" content="General Application Form Responsive widget, Flat Web Templates, Android Compatible web template, 
